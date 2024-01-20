@@ -1,0 +1,22 @@
+.main-2 {
+  border: 2px solid purple;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box-2 {
+  width: 100px;
+  height: 100px;
+
+  background-color: purple;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  transform-origin: top;
+}
+
+.box-2:hover {
+  transform: rotate(180deg);
+}

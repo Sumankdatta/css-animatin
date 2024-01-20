@@ -1,0 +1,18 @@
+.main-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid purple;
+  margin-top: 20px;
+  perspective: 700px;
+}
+.box-3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(128, 0, 128, 0.749);
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+.box-3:hover {
+  transform: translateZ(-400px);
+}
